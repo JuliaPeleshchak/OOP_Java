@@ -11,17 +11,17 @@ public class Application {
             command = new Echo("Error");
         }
 
-        else if (Arrays.equals(args, new String[] {"help"}))
+        else if (args[0].equals("help") && args.length == 1)
         {
             command = new Help();
         }
 
-        else if (Arrays.equals(args, new String[] {"exit"}))
+        else if (args[0].equals("exit") && args.length == 1)
         {
             command = new Exit();
         }
 
-        else if (Arrays.equals(args, new String[] {"date", "now"}))
+        else if (args[0].equals("date")  && args[1].equals("now") && args.length == 2)
         {
             command = new DateNow();
         }
