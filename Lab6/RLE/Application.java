@@ -2,7 +2,7 @@ package com.tasks6.rle;
 
 public class Application
 {
-    public static void main( String[] args )
+    public static void RLE( String[] args )
     {
         if (args != null && args.length != 0 && args[0] != null)
         {
@@ -52,5 +52,9 @@ public class Application
 
             System.out.println(str);
         }
+    }
+    public static void main(String [] args){
+        String [] example = {"Hhhhhhhhhhhhhheeeellooooo"}
+        RLE(example);
     }
 }
