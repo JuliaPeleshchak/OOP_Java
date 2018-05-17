@@ -21,7 +21,6 @@ public class Human_Res_Dep {
     }
     public boolean education (String education){
         String typePattern = "[a-zA-Z]+";
-        //String numberPattern = "\\d+";
         if (education.matches(typePattern)){
             return true;
         }
