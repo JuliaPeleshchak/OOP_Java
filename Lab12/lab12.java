@@ -30,13 +30,13 @@ public class lab12{
         String educat = in.next();
         while(!reg.education(educat)){
             System.out.println("Incorrect input.Enter your education correctly");
-            data = in.next();
+            educat = in.next();
         }
         System.out.println("Enter your salary");
         String salary = in.next();
         while(!reg.salary(salary)){
             System.out.println("Incorrect input. Enter your salary correctly");
-            data = in.next();
+            salary = in.next();
         }
 
         System.out.println("Enter your career(dd.mm.yyyy position department)");
