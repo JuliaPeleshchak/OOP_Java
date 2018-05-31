@@ -12,7 +12,7 @@ public class Main
     {
         window = new JFrame("Lab №15");
         window.setSize(750,500);
-        window.add(new Container());
+        window.add(new Interface1());
         window.setLocationRelativeTo(null);
         window.setResizable(false);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
