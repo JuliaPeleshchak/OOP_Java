@@ -25,7 +25,7 @@ public class Interface1 extends JPanel
         }
         T.setText(str);
     }
-    public Container(){
+    public Interface1(){
         setLayout(null);
         JButton j = new JButton("Add");
         JButton j1 = new JButton("Delete");
