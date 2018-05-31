@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 
-public class Container extends JPanel
+public class Interface1 extends JPanel
 {
     private Font f = new Font("SanSerif",Font.PLAIN,20);
     private ArrayList<Character> arr=new ArrayList<>();
@@ -55,23 +55,23 @@ public class Container extends JPanel
 
         j.setBounds(45,85,250,50);
         j.setFont(f);
-        //j.setBackground(Color.CYAN);
+        
 
         j1.setBounds(395,85,250,50);
         j.setFont(f);
-       // j1.setBackground(Color.CYAN);
+       
 
         j2.setBounds(45,175,250,50);
         j.setFont(f);
-        //j2.setBackground(Color.CYAN);
+       
 
         j3.setBounds(395,175,250,50);
         j.setFont(f);
-        //j3.setBackground(Color.CYAN);
+       
 
         j4.setBounds(220,265,250,50);
         j.setFont(f);
-        //j4.setBackground(Color.CYAN);
+        
 
 
         j.addActionListener(new ActionListener() {
